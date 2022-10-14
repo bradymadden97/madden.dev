@@ -1,0 +1,16 @@
+.terminal-base {
+  background-color: transparent;
+  border: none;
+  color: rgb(222, 255, 247);
+  font-family: "Cousine", monospace;
+  caret-color: transparent;
+  font-size: 16px;
+  padding: 0;
+}
+.terminal-base:focus {
+  outline: none;
+}
+
+#terminal-body-content-editable:focus {
+  outline: none;
+}

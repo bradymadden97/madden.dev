@@ -1,0 +1,44 @@
+#term-container {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 12px;
+  margin-bottom: -12px;
+  height: calc(100vh - 12px);
+}
+
+#term-border {
+  border: 1px solid black;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+  height: 100%;
+}
+
+#term-header {
+  background-color: aqua;
+  height: 36px;
+  display: flex;
+}
+#term-header-red {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 4px;
+}
+#term-header-yellow {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+#term-header-green {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+#term-body {
+  padding: 8px;
+}

@@ -1,0 +1,23 @@
+#term-container {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 12px;
+  margin-bottom: -12px;
+  height: calc(100vh - 12px);
+}
+
+#term-border {
+  border: 1px solid black;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+
+#term-header {
+  background-color: aqua;
+  height: 16px;
+}
+
+#term-body {
+  padding: 8px;
+}
