@@ -1,5 +1,8 @@
 {
-  "private": true,
+  "name": "madden.dev",
+  "version": "0.1.0",
+  "homepage": "https://bradymadden97.github.io/madden.dev",
+  "private": false,
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
