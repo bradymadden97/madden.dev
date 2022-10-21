@@ -18,15 +18,12 @@
   */
 
 .term-body-content-editable {
-  margin-top: 0px;
-}
-.term-body-content-editable > p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.term-body-content-editable:focus {
-  outline: none;
+  margin-top: 4px;
 }
 .term-body-content-editable[contenteditable="true"] {
   flex-grow: 1;
+}
+
+#term-body-content-editable:focus {
+  outline: none;
 }
